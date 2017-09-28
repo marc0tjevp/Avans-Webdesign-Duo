@@ -1,6 +1,6 @@
 .carousel-inner > .item > img {
   width: 100%;
-  height: 500px;
+  margin: 0 auto;
 }
 
 .navbar {
