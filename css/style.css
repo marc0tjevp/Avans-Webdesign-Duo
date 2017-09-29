@@ -4,13 +4,14 @@ body {
 
 /* Carousel */
 
-.carousel {
+.carousel, .carousel-inner {
   margin-bottom: 50px;
+  max-height: 490px !important;
 }
 
 .carousel-inner > .item > img {
-  width: 100%;
-  max-height: 490px !important;
+  max-width: 100%;
+  height: auto;
 }
 
 /* Navigation Bar */
