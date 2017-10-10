@@ -35,6 +35,12 @@ body {
     background-color: #ffffff;
 }
 
+/* Tabs */
+
+.nav-pills {
+  margin-bottom: 10px;
+}
+
 /* Spacing */
 
 .container-index {
