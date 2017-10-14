@@ -13,6 +13,11 @@ main {
   flex: 1 0 auto;
 }
 
+.img-contact {
+  margin-top: 10px;
+  max-height: 200px;
+}
+
 /* Navigation Bar */
 
 .navbar {
