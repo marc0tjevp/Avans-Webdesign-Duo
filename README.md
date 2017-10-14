@@ -24,9 +24,3 @@ This is the repo for the assesement for Webdesign 1 and Studievaardigheden.
  - Makers van de website
  - Voor welke eindopdracht?
  - Colofon
-
-## Kleuren
-
-Potentiele onderkleuren:
-- #65d58f
-- #3c214a
