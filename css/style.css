@@ -7,23 +7,18 @@ body {
   flex-direction: column;
 }
 
+body.loaded {
+  opacity: 1;
+  transition: 1s opacity;
+}
+
 main {
   margin-bottom: 50px;
   margin-top: 50px;
   flex: 1 0 auto;
 }
 
-.img-contact {
-  margin-top: 10px;
-  max-height: 200px;
-}
-
 /* Banner */
-
-body.loaded {
-  opacity: 1;
-  transition: 1s opacity;
-}
 
 .banner {
   position: relative;
@@ -155,6 +150,11 @@ body.loaded {
   margin-bottom: 20px;
 }
 
+.img-contact {
+  margin-top: 10px;
+  max-height: 200px;
+}
+
 /* Shadows */
 
 .light-shadow {
@@ -209,8 +209,7 @@ footer .row {
   margin-bottom: 21px;
 }
 
-/* Hides dividers on small devices */
-
+/* Changes divider orientation on small/large devices */
 @media (max-width: 768px) {
   .footer-top [class*="col-sm-"] {
     border-bottom: 2px solid #333333;
