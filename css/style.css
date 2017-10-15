@@ -239,3 +239,7 @@ footer .row {
   padding: 20px 0;
   text-align: center;
 }
+
+.footer-bottom a {
+  color: #ffffff;
+}
