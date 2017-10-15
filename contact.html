@@ -10,6 +10,7 @@
 	<!-- Stylesheets -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="css/lightbox.css" rel="stylesheet">
 
 </head>
 
@@ -20,7 +21,7 @@
 		<div class="container-fluid">
 
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-nav" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -29,7 +30,7 @@
 				<a class="navbar-brand" href="index.html">Avans Informatica</a>
 			</div>
 
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<div class="collapse navbar-collapse" id="mobile-nav">
 				<ul class="nav navbar-nav">
 					<li><a href="index.html">Home</a></li>
 					<li><a href="opbouw.html">Opbouw</a></li>
@@ -37,7 +38,6 @@
 					<li><a href="vereisten.html">Vereisten</a></li>
 					<li class="active"><a href="contact.html">Contact</a></li>
 				</ul>
-
 			</div>
 
 		</div>
@@ -45,31 +45,35 @@
 
 	<!-- Main Website -->
 	<main>
-		<div class="container-fluid">
+		<div class="container">
 
 			<div class="row">
-				<div class="col-md-2 col-xs-6">
-					<img class="img-responsive img-contact light-shadow" src="img/djim.jpeg" />
+				<div class="col-lg-3 col-md-3 col-xs-6">
+					<a href="img/djim.jpeg" data-lightbox="image-contact">
+						<img src="img/djim.jpeg" class="img-responsive img-contact light-shadow" alt="Djim Oomes">
+					</a>
 					<h3>Djim Oomes</h3>
 					<p>Klas: 1E </p>
-					<p>Studentnummer:</p>
+					<p>Studentnummer: 2122380</p>
 					<p>Website: <a href="http://djimoomes.com">Djimoomes.com</a></p>
 				</div>
 
-				<div class="col-md-2 col-xs-6">
-					<img class="img-responsive img-contact light-shadow" src="img/marco.jpg" />
+				<div class="col-lg-3 col-md-3 col-xs-6">
+					<a href="img/marco.jpg" data-lightbox="image-contact">
+						<img src="img/marco.jpg" class="img-responsive img-contact light-shadow" alt="Marco van Poortvliet">
+					</a>
 					<h3>Marco van Poortvliet</h3>
 					<p>Klas: 1E </p>
-					<p>Studentnummer:</p>
+					<p>Studentnummer: 2121236</p>
 					<p>Website: <a href="https://marcovp.nl">marcovp.nl</a></p>
 				</div>
 
-				<div class="col-md-8 col-xs-12">
+				<div class="col-lg-6 col-md-6 col-xs-12">
 					<h3>Over deze website</h3>
 					<p>
 						Het doel van deze website is om inzicht te geven in de opleiding Informatica op Avans Hoogeschool Breda.
 						Dit hebben wij proberen te bereiken door de informatie op deze website zo eenvoudig en persoonlijk mogelijk te houden, aangezien de schoolsites vaak vrij formeel zijn geschreven.
-						Wij hebben deze website ook gemaakt om onze mening als student over de opleiding te doen klinken maar de opleiding toch te promoten.
+						Wij hebben deze website ook gemaakt om onze mening als student over de opleiding te doen klinken en de opleiding te promoten.
 					</p>
 				</div>
 
@@ -86,8 +90,11 @@
 					<div class=" col-lg-8 col-lg-offset-2">
 						<div class="col-sm-4">
 							<div class="footer-col-item">
-								<h4>Titel</h4>
-								<p>p</p>
+								<h4>Handige Links</h4>
+								<ul>
+									<li><a href="http://www.avans.nl/opleidingen/opleidingzoeker/informatica-breda-voltijd-bachelor/introductie">Avans: Informatica</a></li>
+									<li><a href="https://nl.wikipedia.org/wiki/Informatica">Wikipedia: Informatica</a></li>
+								</ul>
 							</div>
 						</div>
 						<div class="col-sm-4">
@@ -95,6 +102,8 @@
 								<h4>Bronnen</h4>
 								<ul>
 									<li><a href="http://avans.nl" target="_blank">Avans</a></li>
+									<li><a href="http://www.carrieretijger.nl/opleiding/techniek/ict/informatica" target="_blank">Carri&egrave;retijger</a></li>
+									<li><a href="https://codepen.io/marc0tjevp/pens/public/" target="_blank">Illustraties</a></li>
 								</ul>
 							</div>
 						</div>
@@ -115,13 +124,14 @@
 			</div>
 		</div>
 		<div class="footer-bottom">
-			<div class="copyright-tag">&copy; 2017 - All Rights Reserved</div>
+			<div class="copyright-tag">&copy; 2017 - Released under the <a href="LICENSE">MIT License</a></div>
 		</div>
 	</footer>
 
 	<!-- Javascript -->
 	<script src="js/jquery.js"></script>
-	<script src="js/bootstrap.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/lightbox.js"></script>
 
 </body>
 
